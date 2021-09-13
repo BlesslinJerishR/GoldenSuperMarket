@@ -489,6 +489,22 @@ for (var attr in meta) {
     padding-bottom: 0;
     margin-bottom: 0;
   } */
+
+
+/* Hide Scroll bar through Magic */
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 </style>
 
 
